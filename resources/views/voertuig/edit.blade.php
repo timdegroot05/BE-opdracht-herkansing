@@ -107,7 +107,6 @@
             <label for="Opmerkingen">Opmerkingen:</label>
             <textarea name="Opmerkingen">{{ old('Opmerkingen', $voertuig->Opmerkingen) }}</textarea>
         </div>
-
         <div>
             <button type="submit">Update</button>
         </div>
