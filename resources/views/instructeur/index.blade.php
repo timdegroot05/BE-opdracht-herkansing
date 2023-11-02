@@ -13,11 +13,9 @@
         table, th, td {
             border: 1px solid black;
         }
-
         th, td {
             padding: 8px 12px;
         }
-
         th {
             background-color: #f2f2f2;
         }
