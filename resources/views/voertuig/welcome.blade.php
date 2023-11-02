@@ -50,7 +50,7 @@
     <ul>
         @foreach ($voertuigen as $voertuig)
             <li>
-                strong>Kenteken:</strong> {{ $voertuig->Kenteken }} <br>
+                <strong>Kenteken:</strong> {{ $voertuig->Kenteken }} <br>
                 <strong> Type:</strong> {{ $voertuig->Type }} <br>
                 <strong> Bouwjaar:</strong> {{ $voertuig->Bouwjaar }} <br>
                 <strong> Brandstof:</strong> {{ $voertuig->Brandstof }} <br>
