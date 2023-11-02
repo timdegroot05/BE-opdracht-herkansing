@@ -88,7 +88,6 @@
             <label for="Type">Type:</label>
             <input type="text" name="Type" value="{{ old('Type', $voertuig->Type) }}">
         </div>
-
         <div>
             <label for="Bouwjaar">Bouwjaar:</label>
             <input type="text" name="Bouwjaar" value="{{ old('Bouwjaar', $voertuig->Bouwjaar) }}">
