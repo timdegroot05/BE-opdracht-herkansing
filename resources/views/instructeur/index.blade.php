@@ -10,7 +10,6 @@
             border-collapse: collapse;
             width: 100%;
         }
-
         table, th, td {
             border: 1px solid black;
         }
