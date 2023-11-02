@@ -54,10 +54,8 @@
             }
         </style>
     <form action="{{ route('voertuigen.update', $voertuig->Id) }}" method="post">
-
         @csrf
         @method('PUT')
-        
         <div>
             <label for="Kenteken">Kenteken:</label>
             <input type="text" name="Kenteken" value="{{ old('Kenteken', $voertuig->Kenteken) }}">
@@ -86,7 +84,6 @@
             <textarea name="Opmerkingen">{{ old('Opmerkingen', $voertuig->Opmerkingen) }}</textarea>
         </div>
 
-
          <div>
             <label for="Type">Type:</label>
             <input type="text" name="Type" value="{{ old('Type', $voertuig->Type) }}">
@@ -110,7 +107,6 @@
             <label for="Opmerkingen">Opmerkingen:</label>
             <textarea name="Opmerkingen">{{ old('Opmerkingen', $voertuig->Opmerkingen) }}</textarea>
         </div>
-
 
         <div>
             <button type="submit">Update</button>
