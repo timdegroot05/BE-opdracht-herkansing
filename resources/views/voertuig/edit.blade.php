@@ -83,7 +83,6 @@
             <label for="Opmerkingen">Opmerkingen:</label>
             <textarea name="Opmerkingen">{{ old('Opmerkingen', $voertuig->Opmerkingen) }}</textarea>
         </div>
-
          <div>
             <label for="Type">Type:</label>
             <input type="text" name="Type" value="{{ old('Type', $voertuig->Type) }}">
