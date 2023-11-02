@@ -102,7 +102,6 @@
             <label for="IsActief">Is Actief:</label>
             <input type="checkbox" name="IsActief" value="1" {{ $voertuig->IsActief ? 'checked' : '' }}>
         </div>
-
         <div>
             <label for="Opmerkingen">Opmerkingen:</label>
             <textarea name="Opmerkingen">{{ old('Opmerkingen', $voertuig->Opmerkingen) }}</textarea>
