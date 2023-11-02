@@ -37,11 +37,9 @@
                 <th>Achternaam</th>
                 <th>Mobiel</th>
                 <th>Datum In Dienst</th>
-
             </tr>
         </thead>
         <tbody>
-
             @foreach($instructeurs as $instructeur)
                 <tr>
                     <td>{{ $instructeur->Voornaam }}</td>
@@ -49,7 +47,6 @@
                     <td>{{ $instructeur->Achternaam }}</td>
                     <td>{{ $instructeur->Mobiel }}</td>
                     <td>{{ $instructeur->DatumInDienst }}</td>
-
                 </tr>
             @endforeach
         </tbody>
