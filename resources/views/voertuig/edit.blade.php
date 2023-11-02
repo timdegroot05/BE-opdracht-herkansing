@@ -93,7 +93,6 @@
             <label for="Bouwjaar">Bouwjaar:</label>
             <input type="text" name="Bouwjaar" value="{{ old('Bouwjaar', $voertuig->Bouwjaar) }}">
         </div>
-
         <div>
             <label for="Brandstof">Brandstof:</label>
             <input type="text" name="Brandstof" value="{{ old('Brandstof', $voertuig->Brandstof) }}">
